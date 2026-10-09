@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- Hosted Privacy Policy for the Google Play listing (Play Console → App content → Privacy policy).
-     The Android build has no ads; its only network traffic is GameAnalytics (src/analytics.ts) — when that changes (AdMob etc.),
+     Network traffic: Google AdMob (src/admob.ts, from 0.3.12) and GameAnalytics (src/analytics.ts) — when that changes,
      update this page AND the Play Data safety form together. build.js copies it into dist/, npm run deploy publishes it. -->
 <html lang="en">
 <head>
@@ -19,28 +19,29 @@
 <body>
 <main>
 <h1>Hook the Star — Privacy Policy</h1>
-<p>Developer: Aiwa Int<br>Contact: <a href="mailto:aiwainit2023@gmail.com">aiwainit2023@gmail.com</a><br>Last updated: October 5, 2026</p>
+<p>Developer: Aiwa Int<br>Contact: <a href="mailto:aiwainit2023@gmail.com">aiwainit2023@gmail.com</a><br>Last updated: October 10, 2026</p>
 <p>This policy covers the Hook the Star app for Android (package com.aiwaint.hookthestar).</p>
 
 <h2>1. Data we collect</h2>
-<p>Anonymous gameplay analytics only. The app uses <a href="https://gameanalytics.com/privacy">GameAnalytics</a> to understand how the game is played and to improve it. It records gameplay events (levels started, won and failed, coins earned and spent, errors) together with your device model, operating system, app version, approximate country derived from your IP address and a random identifier generated on your device. This data is not linked to your name or any account, and is not used for advertising.</p>
+<p><b>Advertising.</b> The app shows optional rewarded videos (you choose to watch one for coins) and occasional full-screen ads between levels, served by <a href="https://policies.google.com/technologies/partner-sites">Google AdMob</a>. To deliver, measure and (with your consent) personalize ads, Google may collect your device's advertising ID, IP address (for approximate location), device and app information and ad interactions, under Google's own privacy policy. In the EEA, the UK and Switzerland the app asks for your consent before personalized ads, and you can change your choice at any time: Privacy &amp; Terms (in the level menu) → AD PRIVACY. You can also reset or delete the advertising ID in Android Settings → Privacy → Ads.</p>
+<p><b>Analytics.</b> The app uses <a href="https://gameanalytics.com/privacy">GameAnalytics</a> to understand how the game is played and to improve it. It records gameplay events (levels started, won and failed, coins earned and spent, errors) together with your device model, operating system, app version, approximate country derived from your IP address and a random identifier generated on your device. Analytics data is not linked to your name or any account, and is not used for advertising.</p>
 <ul>
   <li>No account, name, email or sign-in is ever requested.</li>
-  <li>No advertising SDKs and no analytics other than GameAnalytics are included.</li>
-  <li>The app requests no special permissions.</li>
+  <li>No SDKs other than Google AdMob and GameAnalytics are included.</li>
+  <li>The only permissions are internet access and the advertising ID (added by AdMob).</li>
 </ul>
 
 <h2>2. Data stored on your device</h2>
 <p>Your game progress and settings (unlocked levels, stars, coins, outfits, sound on/off) are saved only on your device, inside the app's own storage, so you keep your place between sessions. This game data never leaves your device.</p>
 
 <h2>3. Deleting your data</h2>
-<p>Uninstall the app, or open Android Settings → Apps → Hook the Star → Storage → Clear data. This removes everything the app has stored, including the analytics identifier. To ask for deletion of analytics data already sent, write to the contact below.</p>
+<p>Uninstall the app, or open Android Settings → Apps → Hook the Star → Storage → Clear data. This removes everything the app has stored, including the analytics identifier and your ad consent choice. To ask for deletion of analytics data already sent, write to the contact below.</p>
 
 <h2>4. Children</h2>
-<p>The game is suitable for a general audience. It does not knowingly collect personal information from children; the analytics above are anonymous.</p>
+<p>The game is suitable for a general audience. It is not directed at children and does not knowingly collect personal information from them.</p>
 
 <h2>5. Changes</h2>
-<p>If a future version adds features that process data (for example, advertising), this policy will be updated before that version is released, and the date above will change.</p>
+<p>If a future version changes how data is processed, this policy will be updated before that version is released, and the date above will change.</p>
 
 <h2>6. Contact</h2>
 <p>Questions about this policy: Aiwa Int — <a href="mailto:aiwainit2023@gmail.com">aiwainit2023@gmail.com</a></p>
